@@ -1,0 +1,21 @@
+server:
+  port: 8082
+  mode: debug
+
+database:
+  host: localhost
+  port: 3306
+  username: root
+  password: root
+  dbname: blog_system
+  charset: utf8mb4
+
+redis:
+  host: localhost
+  port: 6379
+  password: ""
+  db: 0
+
+jwt:
+  secret: blog-system-jwt-secret-key-for-authentication
+  expire: 24h
